@@ -1,5 +1,4 @@
 node{
-     hi this is naganath how are you
     stage('SCM Checkout'){
         git url: 'https://github.com/MithunTechnologiesDevOps/java-web-app-docker.git',branch: 'master'
     }
